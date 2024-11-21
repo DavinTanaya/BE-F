@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    min-width: 100vw;
+    min-width: calc(100vw - 17px); /* Ini 100vw - 17px (100% layar - 17px, karena ada scrollbar, jadi harus dikurangi ukuran scrollbarnya supaya tidak terjadi overflow*/
     overflow-x: hidden;
     flex-direction: column;
 }
@@ -8,7 +8,7 @@
 .navbar{
     display: flex;
     flex-direction: row;
-    min-width: 100vw;
+    min-width: calc(100vw - 17px);
     background-color: #e5cffe;
     height: auto;
     justify-content: space-between;
@@ -50,7 +50,7 @@
 .footer{
     display: flex;
     flex-direction: row;
-    min-width: 100vw;
+    min-width: calc(100vw - 17px);
     justify-content: center;
     background-color: #e5cffe;
     padding: 1rem;
@@ -71,7 +71,7 @@
 .filter{
     display: flex;
     flex-direction: row;
-    min-width: 100vw;
+    min-width: calc(100vw - 17px);
     margin: 1rem;
     background: #bde0fe;
     border-radius: 0.5rem;
