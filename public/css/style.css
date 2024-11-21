@@ -1,0 +1,127 @@
+.container{
+    display: flex;
+    min-width: 100vw;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    min-width: 100vw;
+    background-color: #e5cffe;
+    height: auto;
+    justify-content: space-between;
+}
+
+.left-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.right-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.left-item p{
+    font-size: 1.5rem;
+}
+
+.right-item a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    background: #ffcad4;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.logo{
+    color: #6f5d83;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    min-width: 100vw;
+    justify-content: center;
+    background-color: #e5cffe;
+    padding: 1rem;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.judul{
+    display: flex;
+    justify-content: center;
+    color: #7d718c;
+}
+
+.filter{
+    display: flex;
+    flex-direction: row;
+    min-width: 100vw;
+    margin: 1rem;
+    background: #bde0fe;
+    border-radius: 0.5rem;
+}
+
+.filter form{
+    display: flex;
+    flex-direction: row;
+    min-width: 100vw;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.pickup-date{
+    display: flex;
+    flex-direction: column;
+}
+
+.pickup-date input{
+    padding: 0.5rem;
+}
+
+.return-date{
+    display: flex;
+    flex-direction: column;
+}
+
+.return-date input{
+    padding: 0.5rem;
+}
+
+.select-tahun{
+    display: flex;
+    flex-direction: column;
+}
+
+.select-tahun select{
+    padding: 0.5rem;
+}
+
+.cari{
+    display: flex;
+    align-items: end;
+}
+
+.cari a{
+    font-size: 1rem;
+    text-decoration: none;
+    background: #ffcad4;
+    padding: 0.25rem;
+    color: white;
+    border-radius: 0.5rem;
+}
